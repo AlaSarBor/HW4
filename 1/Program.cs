@@ -1,4 +1,5 @@
-﻿int[,] CreateRandomMatrix(int m = 3, int n = 4)
+﻿//Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.
+int[,] CreateRandomMatrix(int m = 3, int n = 4)
 {
     int[,] arr = new int[m, n];
     for (int i = 0; i < arr.GetLength(0); i++)
